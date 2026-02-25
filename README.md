@@ -12,7 +12,21 @@ HSP3Serviceは、HSPでWindowsサービスの作成を可能にするプラグ�
 
 
 
-# 動作確認済み環境
+## インストール方法
+
+Releaseをダウンロード、解凍し次のファイル及びフォルダをHSPがインストールされているディレクトリ
+(以下、HSP_root)または下記に対応するサブディレクトリにコピーします。<br>
+HSPのヘルプ(HDL)が起動している場合は作業開始前に終了してください。<br>
+```
+・HSP3Service.dll		        -> HSP_root
+・HSP3Service.as		        -> HSP_root\common\
+・HSP3Service	          <DIR> -> HSP_root\doclib\
+```
+使用方法や技術的詳細はインストール後にHDLから閲覧可能になります。
+
+
+
+## 動作確認済み環境
 
 - Windows 7, 10, 11
 - HSP 3.4, 3.7
@@ -20,7 +34,7 @@ HSP3Serviceは、HSPでWindowsサービスの作成を可能にするプラグ�
 
 
 
-# ライセンス
+## ライセンス
 
 基本的にプラグイン本体は、Microsoft Visual Studio Community 2022 のライセンスに基づくものとし、個人使用の範囲内であれば、改変は自由です。
 
@@ -30,12 +44,12 @@ HSP3Serviceは、HSPでWindowsサービスの作成を可能にするプラグ�
 
 
 
-# 免責事項
+## 免責事項
 
 本プラグインの作成者は本プラグインの使用によって発生したいかなる損害についても責任を負わないものとします。
 
 
-# リンク
+## リンク
 - [プログラミング言語 HSP3 公式](https://hsp.tv/)
 - [ONION software](https://www.onionsoft.net/)
 
